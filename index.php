@@ -33,6 +33,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="?m=siswa">Siswa</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?m=mapel">Mata Pelajaran</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?m=guru">Guru</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Nilai
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="?m=grmp">Guru - Mapel</a>
+                        <a class="dropdown-item" href="?m=grkl">Guru - Kelas</a>
+                        <a class="dropdown-item" href="?m=nilai">Nilai</a>
+                        </div>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,7 +65,7 @@
     <div class="fixed-bottom">
         <div class="card">
             <div class="card-body">
-                &copy; 2024-
+                &copy; 2013-
                 <?= date("y") ?> Web Programming
             </div>
         </div>
